@@ -1,8 +1,15 @@
-# Netflix Prize Recommendation System
+# 🎬 Netflix Prize Recommendation System
 
 A complete, end-to-end personalized recommendation system using the Netflix Prize Dataset, built for an ML competition.
 
-## Features
+## 📑 Project Deliverables (Review First)
+
+- **Technical Report:** [Netflix_Prize_Technical_Report.pdf](./Netflix_Prize_Technical_Report.pdf)
+- **Project Presentation:** [Netflix_Recommendation_System_Presentation.pptx](./Netflix_Recommendation_System_Presentation.pptx)
+
+*Please review the above documents for a comprehensive overview of the methodology, models, and evaluation results.*
+
+## ✨ Features
 - **Data Pipeline:** Efficient parsing of 100M+ ratings into Parquet format, stratified sampling into Tiny/Medium subsets, and generation of Sparse Interaction Matrices.
 - **Models:** 
   - User-Based Collaborative Filtering
@@ -12,7 +19,7 @@ A complete, end-to-end personalized recommendation system using the Netflix Priz
 - **Evaluation:** Custom implementations of MAP@10 and RMSE to correctly benchmark the models according to competition rules.
 - **Generators:** Top-K recommendation generation with item-based explainability.
 
-## Setup Instructions
+## 🚀 Setup Instructions
 
 ### 1. Requirements
 Ensure you have Python 3.10+ installed.
@@ -50,12 +57,12 @@ You can run the full end-to-end benchmark script on the generated "Tiny" subset 
 python main.py
 ```
 
-### 5. Notebooks
+### 📓 5. Notebooks
 Explore the `notebooks/` directory to see:
 - `01_eda.ipynb`: Exploratory Data Analysis
 - `06_evaluation.ipynb`: Deep dive into model comparison and Top-K generation
 
-## Repository Structure
+## 📂 Repository Structure
 - `data/`: Raw data, processed parquet files, and sampled subsets
 - `notebooks/`: Jupyter Notebooks for EDA and Evaluation
 - `src/`: Core Python modules (data, models, evaluation, recommendation)
