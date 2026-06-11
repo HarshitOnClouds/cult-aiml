@@ -1,0 +1,13 @@
+pandas
+numpy
+scipy
+scikit-learn
+scikit-surprise
+implicit
+matplotlib
+seaborn
+pyarrow
+tqdm
+joblib
+jupyter
+notebook
