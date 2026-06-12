@@ -5,7 +5,7 @@ A complete, end-to-end personalized recommendation system using the Netflix Priz
 ## 📑 Project Deliverables (Review First)
 
 - **Technical Report:** [Netflix_Prize_Technical_Report.pdf](./Netflix_Prize_Technical_Report.pdf)
-- **Project Presentation:** [Netflix_Recommendation_System_Presentation.pptx](./Netflix_Recommendation_System_Presentation.pptx)
+- **Project Presentation:** [Netflix_Recommendation_System (1).pdf](./Netflix_Recommendation_System%20(1).pdf)
 
 *Please review the above documents for a comprehensive overview of the methodology, models, and evaluation results.*
 
@@ -66,5 +66,4 @@ Explore the `notebooks/` directory to see:
 - `data/`: Raw data, processed parquet files, and sampled subsets
 - `notebooks/`: Jupyter Notebooks for EDA and Evaluation
 - `src/`: Core Python modules (data, models, evaluation, recommendation)
-- `reports/`: Deliverables including PDF reports and figures
 - `main.py`: Entry point for quick experiment running
